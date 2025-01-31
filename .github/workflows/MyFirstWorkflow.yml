@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@v4.2.2
       - name: List files in directory
         run: |
-          echo "The repos ${{ github.repository }} contains the following files:"
+          echo "The repo ${{ github.repository }} contains the following files:"
           tree
